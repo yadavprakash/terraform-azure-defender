@@ -23,7 +23,7 @@ for creating AZURE resources, and you can customize the inputs as needed. Below 
 
 ```hcl
 module "defender" {
-  source      = "git::https://github.com/opsstation/terraform-azure-defender.git?ref=v1.0.0"
+  source      = "git::https://github.com/yadavprakash/terraform-azure-defender.git?ref=v1.0.0"
   resource_id = module.storage.default_storage_account_id
 }
 ```
@@ -39,10 +39,10 @@ The following input variables can be configured:
 - 'defender_id': The ID of the Advanced Threat Protection resource.
 
 # Examples
-For detailed examples on how to use this module, please refer to the '[example](https://github.com/opsstation/terraform-azure-defender/blob/master/example)' directory within this repository.
+For detailed examples on how to use this module, please refer to the '[example](https://github.com/yadavprakash/terraform-azure-defender/blob/master/example)' directory within this repository.
 
 # License
-This Terraform module is provided under the '[License Name]' License. Please see the [LICENSE](https://github.com/opsstation/terraform-azure-defender/blob/master/LICENSE) file for more details.
+This Terraform module is provided under the '[License Name]' License. Please see the [LICENSE](https://github.com/yadavprakash/terraform-azure-defender/blob/master/LICENSE) file for more details.
 
 # Author
 Your Name
